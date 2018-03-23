@@ -2,7 +2,6 @@ from django.contrib.auth.models import User, Group
 from rest_framework import serializers
 from .models import *
 from rest_framework.exceptions import ErrorDetail, ValidationError
-from .dealer import order,cancel
 import json
 import datetime
     
